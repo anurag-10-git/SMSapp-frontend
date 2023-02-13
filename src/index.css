@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: #151534;
+  color: rgb(255 255 255 / 0.5);
+}
+
+li {
+  list-style: none;
+}
+
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 56%;
+  }
+}
